@@ -2,9 +2,9 @@
 let userInfo = ["Alice", 25, true, { city: "New York" }, ["reading", "traveling"]];
 
 // Task 2: Access and display the user's name and 2nd hobby from the hobbies array
-console.log(userInfo[0], userInfo[4][1]);
+console.log("user name:",userInfo[0], "user 2nd hobby:",userInfo[4][1]);
 
-console.log(userInfo[0],userInfo[4][1]);
+
 
  // Task3 update the user's age to 30 and add a new hobby "swimming" to the hobbies arrays.
 
@@ -13,4 +13,4 @@ console.log(userInfo[0],userInfo[4][1]);
 
  //Task4: Display the updated user profile.
 
- console.log(userInfo);
+ console.log("user updated info:", userInfo);
